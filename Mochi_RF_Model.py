@@ -73,4 +73,4 @@ print(classification_report(y_test, y_pred))
 
 # Save best model
 import joblib
-joblib.dump(best_model, 'optimized_mochi_rf_model.pkl')
+joblib.dump(best_model, 'model.pkl')
