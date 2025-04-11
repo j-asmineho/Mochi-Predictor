@@ -21,7 +21,7 @@
     <script>
         async function predict() {
             const time = document.getElementById('time').value;
-            const response = await fetch('https://yourusername.pythonanywhere.com/predict?time=' + time);
+            const response = await fetch('https://jasmineh3815.pythonanywhere.com/predict?time=' + time);
             const data = await response.json();
             
             document.getElementById('result').innerHTML = `
