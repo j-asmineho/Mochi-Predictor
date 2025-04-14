@@ -3,7 +3,7 @@ import random
 import json
 
 # Load JSON rules
-with open('Mochi.json') as f:
+with open('Mochi Data Rules.json') as f:
     activities_rules = json.load(f)
 
 # Helper functions
@@ -35,15 +35,28 @@ def generate_row():
     
     # People home logic
     people_min = activity_rule.get('people_home_min', 0)
-    people_max = activity_rule.get('people_home_max', 7)
+    people_max = 7
     
     # Adjust based on time/day
     if time_float < 8 or time_float > 20:  # Night hours
-        people_home = random.randint(max(1, people_min), min(3, people_max))
+        people_home = random.randint(
+            max(1, people_min),  # At least 1 at night
+            min(3, people_max)   # No more than 3 at night
+        )
     elif day_num in [6,7]:  # Weekend
-        people_home = random.randint(max(2, people_min), people_max)
+        people_home = random.randint(
+            max(2, people_min),  # At least 2 on weekends
+            people_max          # Up to the rule's maximum
+        )
     else:  # Weekday daytime
-        people_home = random.randint(people_min, min(2, people_max))
+        people_home = random.randint(
+            people_min,         # Minimum from rule
+            min(2, people_max)  # No more than 2 on weekdays
+        )
+        
+    # Final safety check to ensure valid range
+    if people_min > people_max:
+        people_home = max(people_min, people_max)
     
     # Location handling (some locations more likely than others)
     location_weights = {
@@ -76,25 +89,6 @@ def generate_row():
     
   
     mood = random.choice(activity_rule['mood'])
-    
-    # Trigger logic
-    # trigger_map = {
-    #     'Begging for food': ['Someone cooking', 'Someone eating'],
-    #     'Sleeping' : ['Mochi tired'],
-    #     'Zoomies': ['Just pooped', 'Shower', 'Playing fetch'],
-    #     'Playing fetch': ['Someone throws toy'],
-    #     'Barking': ['Hears doorbell', 'Someone comes home', 'Someone goes downstairs'],
-    #     'Cutting nails': ['Routine grooming'],
-    #     'Shower': ['Bath day'],
-    #     'Haircut': ['Hair too long'],
-    #     'Eating': ['Meal time'],
-    #     'On the couch': ['Mom sits down'],
-    #     'Pooping': ['Morning walk', 'Ate food'],
-    #     'Peeing': ['Bored'],
-    #     'Walking': ['Bored'],
-    #     'Trick': ['Treat']
-    # }
-    # trigger = random.choice(trigger_map[activity_rule['activity']]) if activity_rule['activity'] in trigger_map else None
     
     # Reward given - special cases first
     if activity_rule['activity'] in ['Cutting nails', 'Shower', 'Haircut', "Trick", "Pooping", "Walking"]:
@@ -129,7 +123,6 @@ def generate_row():
         'Weather': weather,
         'People_home': people_home,
         'Mood': mood,
-        # 'Trigger': trigger,
         'Reward_given': reward,
         'Activity': activity_rule['activity']
     }
@@ -147,3 +140,5 @@ df = df.drop('Day_num', axis=1)
 df.to_csv('mochi_activities_1.csv', index=False)
 print("Dataset generated with 500 rows!")
 
+
+print(df)

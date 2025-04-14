@@ -1,0 +1,501 @@
+Day,Time,Duration_minutes,Location,Weather,People_home,Mood,Reward_given,Activity
+Monday,6.6,309,Kitchen,Cloudy,1,Sleepy,0,Sleeping
+Monday,8.6,2,Front yard,Sunny,2,Relieved,0,Pooping
+Monday,8.8,2,Living room,Sunny,2,Excited,0,Barking
+Monday,8.8,10,Front yard,Cloudy,2,Excited,0,Pooping
+Monday,9.1,5,Living room,Sunny,1,Energetic,0,Barking
+Monday,9.3,3,Kitchen,Cloudy,0,Excited,0,Barking
+Monday,9.7,78,Living room,Rainy,1,Sleepy,0,On the couch
+Monday,10.0,4,Kitchen,Sunny,2,Energetic,0,Barking
+Monday,10.0,10,Living room,Rainy,2,Excited,1,Begging for food
+Monday,10.6,9,Kitchen,Cloudy,2,Excited,1,Begging for food
+Monday,11.2,40,Living room,Cloudy,2,Sleepy,0,On the couch
+Monday,12.4,54,Living room,Sunny,1,Excited,0,On the couch
+Monday,12.5,5,Living room,Sunny,2,Savage,1,Begging for food
+Monday,13.0,52,Front yard,Sunny,1,Energetic,0,Walking
+Monday,13.6,72,Living room,Sunny,2,Excited,0,On the couch
+Monday,13.6,60,Living room,Sunny,2,Sleepy,0,On the couch
+Monday,13.7,63,Living room,Cloudy,2,Sleepy,0,On the couch
+Monday,13.7,5,Parent's room,Sunny,2,Scared,0,Barking
+Monday,14.0,1,Front yard,Sunny,2,Annoyed,0,Barking
+Monday,14.2,3,Front yard,Cloudy,1,Excited,0,Pooping
+Monday,14.9,342,Kitchen,Cloudy,1,Lazy,0,Sleeping
+Monday,14.9,4,Jasmine's room,Sunny,0,Excited,0,Barking
+Monday,15.1,17,Front yard,Sunny,2,Energetic,0,Playing fetch
+Monday,15.2,13,Living room,Sunny,2,Savage,0,Zoomies
+Monday,15.4,5,Jasmine's room,Snowy,2,Excited,1,Begging for food
+Monday,15.4,103,Living room,Sunny,1,Excited,0,On the couch
+Monday,15.6,26,Living room,Sunny,1,Energetic,0,Playing fetch
+Monday,15.6,2,Kitchen,Sunny,2,Excited,0,Barking
+Monday,15.7,430,Living room,Cloudy,1,Lazy,0,Sleeping
+Monday,15.7,17,Front yard,Cloudy,2,Energetic,0,Playing fetch
+Monday,15.9,1,Living room,Sunny,1,Excited,1,Trick
+Monday,16.2,2,Living room,Sunny,0,Energetic,0,Barking
+Monday,16.6,11,Kitchen,Sunny,2,Relieved,0,Eating
+Monday,16.7,15,Kitchen,Sunny,1,Excited,0,Eating
+Monday,16.8,24,Living room,Sunny,2,Excited,0,Playing fetch
+Monday,17.0,25,Front yard,Sunny,2,Energetic,0,Walking
+Monday,17.1,3,Kitchen,Rainy,1,Energetic,1,Trick
+Monday,17.1,29,Front yard,Cloudy,2,Excited,0,Playing fetch
+Monday,17.3,159,Living room,Rainy,1,Lazy,0,On the couch
+Monday,17.3,2,Mailbox,Sunny,2,Energetic,0,Barking
+Monday,17.8,17,Kitchen,Cloudy,1,Relieved,0,Eating
+Monday,17.9,2,Front yard,Cloudy,1,Excited,0,Pooping
+Monday,18.0,20,Kitchen,Sunny,1,Relieved,0,Eating
+Monday,18.1,17,Kitchen,Sunny,1,Relieved,0,Eating
+Monday,18.1,18,Living room,Cloudy,2,Excited,0,Playing fetch
+Monday,18.3,7,Kitchen,Sunny,2,Excited,0,Eating
+Monday,18.4,6,Front yard,Sunny,1,Excited,0,Peeing
+Monday,18.4,3,Parent's room,Sunny,0,Annoyed,0,Barking
+Monday,18.6,1,Living room,Sunny,2,Excited,1,Trick
+Monday,18.6,5,Kitchen,Sunny,1,Excited,0,Peeing
+Monday,18.7,4,Parent's room,Sunny,1,Annoyed,0,Barking
+Monday,18.8,5,Front yard,Sunny,2,Excited,0,Peeing
+Monday,18.8,6,Parent's room,Sunny,2,Savage,0,Zoomies
+Monday,19.5,9,Kitchen,Sunny,2,Energetic,0,Zoomies
+Monday,19.5,24,Front yard,Sunny,2,Excited,0,Playing fetch
+Monday,19.7,3,Front yard,Snowy,2,Excited,0,Peeing
+Monday,20.1,9,Living room,Sunny,3,Energetic,0,Zoomies
+Monday,20.1,80,Living room,Sunny,1,Lazy,0,On the couch
+Monday,20.1,6,Parent's room,Sunny,2,Savage,0,Zoomies
+Monday,20.3,11,Living room,Sunny,3,Energetic,0,Zoomies
+Monday,20.5,7,Parent's room,Sunny,2,Excited,0,Zoomies
+Monday,21.1,45,Living room,Sunny,1,Lazy,0,On the couch
+Monday,22.4,10,Kitchen,Sunny,2,Relieved,0,Peeing
+Monday,22.7,1,Parent's room,Cloudy,3,Scared,0,Barking
+Monday,23.6,5,Kitchen,Sunny,2,Savage,0,Barking
+Monday,23.7,1,Kitchen,Cloudy,2,Excited,0,Barking
+Tuesday,6.2,127,Kitchen,Cloudy,2,Lazy,0,Sleeping
+Tuesday,7.4,4,Living room,Sunny,2,Scared,0,Barking
+Tuesday,7.6,3,Living room,Cloudy,1,Annoyed,0,Barking
+Tuesday,8.3,1,Front yard,Rainy,2,Excited,0,Pooping
+Tuesday,9.3,4,Living room,Sunny,2,Scared,0,Barking
+Tuesday,9.4,10,Living room,Sunny,1,Excited,1,Begging for food
+Tuesday,9.6,23,Front yard,Sunny,1,Excited,0,Walking
+Tuesday,9.7,1,Living room,Cloudy,0,Energetic,0,Barking
+Tuesday,9.9,9,Front yard,Sunny,2,Excited,0,Pooping
+Tuesday,11.0,1,Living room,Cloudy,2,Excited,1,Trick
+Tuesday,11.4,21,Front yard,Sunny,2,Energetic,0,Walking
+Tuesday,11.8,1,Living room,Cloudy,0,Savage,0,Barking
+Tuesday,11.9,10,Mailbox,Cloudy,2,Excited,0,Pooping
+Tuesday,12.2,5,Kitchen,Cloudy,2,Excited,0,Peeing
+Tuesday,12.7,384,Kitchen,Rainy,1,Sleepy,0,Sleeping
+Tuesday,12.7,8,Bathroom,Sunny,1,Relieved,0,Peeing
+Tuesday,13.2,345,Jasmine's room,Cloudy,2,Sleepy,0,Sleeping
+Tuesday,13.4,14,Kitchen,Cloudy,1,Excited,0,Playing fetch
+Tuesday,13.7,8,Kitchen,Cloudy,1,Excited,0,Peeing
+Tuesday,14.0,404,Living room,Rainy,1,Sleepy,0,Sleeping
+Tuesday,14.0,4,Living room,Rainy,1,Excited,1,Begging for food
+Tuesday,14.1,30,Living room,Sunny,2,Energetic,0,Playing fetch
+Tuesday,14.1,1,Jasmine's room,Sunny,1,Excited,1,Begging for food
+Tuesday,14.2,8,Living room,Sunny,1,Savage,1,Begging for food
+Tuesday,14.4,41,Living room,Rainy,1,Excited,0,On the couch
+Tuesday,14.4,315,Living room,Cloudy,2,Sleepy,0,Sleeping
+Tuesday,14.5,3,Kitchen,Cloudy,1,Energetic,1,Trick
+Tuesday,14.5,451,Kitchen,Cloudy,1,Sleepy,0,Sleeping
+Tuesday,14.9,74,Living room,Cloudy,1,Excited,0,On the couch
+Tuesday,14.9,5,Mailbox,Sunny,1,Excited,0,Pooping
+Tuesday,15.0,3,Front yard,Cloudy,2,Relieved,0,Pooping
+Tuesday,15.3,3,Jasmine's room,Cloudy,1,Scared,0,Barking
+Tuesday,15.6,8,Living room,Sunny,2,Excited,1,Begging for food
+Tuesday,15.6,7,Living room,Snowy,2,Energetic,0,Zoomies
+Tuesday,15.6,9,Front yard,Sunny,1,Excited,0,Pooping
+Tuesday,15.6,4,Kitchen,Cloudy,1,Relieved,0,Peeing
+Tuesday,15.7,2,Living room,Sunny,1,Savage,0,Barking
+Tuesday,16.0,14,Kitchen,Sunny,1,Relieved,0,Eating
+Tuesday,16.0,25,Living room,Sunny,1,Sleepy,0,On the couch
+Tuesday,16.1,5,Kitchen,Sunny,2,Excited,0,Peeing
+Tuesday,16.2,5,Kitchen,Sunny,1,Energetic,1,Trick
+Tuesday,16.6,347,Living room,Cloudy,2,Sleepy,0,Sleeping
+Tuesday,16.6,7,Front yard,Cloudy,2,Excited,0,Pooping
+Tuesday,16.7,13,Kitchen,Rainy,1,Excited,0,Eating
+Tuesday,17.0,6,Kitchen,Sunny,2,Excited,1,Begging for food
+Tuesday,17.1,24,Front yard,Sunny,2,Excited,0,Walking
+Tuesday,17.6,4,Living room,Sunny,0,Energetic,0,Barking
+Tuesday,17.6,127,Living room,Sunny,1,Sleepy,0,On the couch
+Tuesday,17.6,29,Front yard,Sunny,2,Energetic,0,Walking
+Tuesday,17.7,15,Kitchen,Sunny,2,Energetic,0,Zoomies
+Tuesday,17.7,2,Living room,Sunny,2,Energetic,0,Barking
+Tuesday,18.0,17,Kitchen,Sunny,2,Relieved,0,Eating
+Tuesday,18.1,5,Kitchen,Rainy,2,Excited,0,Eating
+Tuesday,18.3,17,Kitchen,Sunny,2,Relieved,0,Eating
+Tuesday,18.4,7,Kitchen,Sunny,2,Relieved,0,Eating
+Tuesday,18.5,11,Kitchen,Cloudy,2,Excited,0,Eating
+Tuesday,18.5,13,Kitchen,Sunny,2,Relieved,0,Eating
+Tuesday,18.5,8,Kitchen,Sunny,2,Excited,0,Eating
+Tuesday,18.6,3,Living room,Rainy,1,Savage,1,Begging for food
+Tuesday,18.6,3,Living room,Sunny,2,Energetic,1,Trick
+Tuesday,19.1,9,Kitchen,Sunny,2,Excited,0,Zoomies
+Tuesday,19.4,8,Front yard,Cloudy,2,Excited,0,Pooping
+Tuesday,19.7,165,Living room,Cloudy,2,Sleepy,0,On the couch
+Tuesday,19.7,14,Living room,Sunny,2,Energetic,0,Zoomies
+Tuesday,19.9,17,Living room,Sunny,2,Energetic,0,Playing fetch
+Tuesday,20.0,15,Living room,Cloudy,1,Excited,0,Playing fetch
+Tuesday,20.9,22,Kitchen,Sunny,2,Excited,0,Playing fetch
+Tuesday,21.7,8,Parent's room,Sunny,2,Relieved,0,Peeing
+Tuesday,22.0,23,Living room,Sunny,3,Excited,0,Playing fetch
+Tuesday,22.8,10,Front yard,Sunny,2,Excited,0,Playing fetch
+Tuesday,22.8,5,Kitchen,Sunny,3,Excited,0,Peeing
+Wednesday,7.6,3,Living room,Cloudy,3,Scared,0,Barking
+Wednesday,8.1,10,Front yard,Sunny,2,Excited,0,Pooping
+Wednesday,8.4,4,Living room,Sunny,2,Excited,0,Barking
+Wednesday,8.5,1,Mailbox,Sunny,2,Energetic,0,Barking
+Wednesday,8.6,5,Jasmine's room,Sunny,2,Excited,0,Barking
+Wednesday,9.0,92,Living room,Rainy,2,Excited,0,On the couch
+Wednesday,9.1,40,Mailbox,Sunny,1,Excited,0,Walking
+Wednesday,9.8,2,Kitchen,Rainy,2,Energetic,1,Trick
+Wednesday,9.9,5,Kitchen,Snowy,2,Excited,1,Trick
+Wednesday,10.2,2,Kitchen,Sunny,1,Energetic,1,Trick
+Wednesday,10.4,6,Kitchen,Cloudy,2,Excited,0,Peeing
+Wednesday,10.6,34,Front yard,Sunny,1,Energetic,0,Walking
+Wednesday,10.9,28,Front yard,Sunny,1,Excited,0,Walking
+Wednesday,10.9,103,Living room,Sunny,2,Lazy,0,On the couch
+Wednesday,10.9,2,Living room,Rainy,0,Savage,0,Barking
+Wednesday,11.0,4,Front yard,Cloudy,2,Scared,0,Barking
+Wednesday,11.2,69,Living room,Rainy,1,Sleepy,0,On the couch
+Wednesday,11.5,10,Kitchen,Sunny,1,Excited,1,Begging for food
+Wednesday,11.6,49,Living room,Sunny,2,Sleepy,0,On the couch
+Wednesday,11.8,7,Front yard,Cloudy,1,Excited,0,Pooping
+Wednesday,12.2,49,Living room,Cloudy,1,Lazy,0,On the couch
+Wednesday,12.4,7,Living room,Cloudy,2,Excited,1,Begging for food
+Wednesday,12.5,2,Parent's room,Rainy,1,Scared,0,Barking
+Wednesday,12.6,6,Front yard,Rainy,1,Relieved,0,Pooping
+Wednesday,13.3,239,Kitchen,Cloudy,2,Lazy,0,Sleeping
+Wednesday,13.4,43,Front yard,Sunny,2,Excited,0,Walking
+Wednesday,13.8,390,Jasmine's room,Rainy,2,Sleepy,0,Sleeping
+Wednesday,13.9,25,Living room,Sunny,2,Excited,0,Playing fetch
+Wednesday,14.0,49,Front yard,Sunny,2,Excited,0,Walking
+Wednesday,14.1,150,Parent's room,Rainy,1,Sleepy,0,Sleeping
+Wednesday,14.2,18,Kitchen,Sunny,2,Energetic,0,Playing fetch
+Wednesday,14.7,22,Living room,Sunny,1,Excited,0,On the couch
+Wednesday,15.0,8,Mailbox,Sunny,2,Excited,0,Peeing
+Wednesday,15.1,27,Kitchen,Cloudy,1,Excited,0,Playing fetch
+Wednesday,15.7,207,Kitchen,Cloudy,2,Sleepy,0,Sleeping
+Wednesday,16.0,151,Living room,Sunny,1,Sleepy,0,On the couch
+Wednesday,16.3,5,Parent's room,Sunny,2,Relieved,0,Peeing
+Wednesday,16.4,34,Living room,Rainy,1,Excited,0,On the couch
+Wednesday,16.6,11,Living room,Snowy,2,Energetic,0,Zoomies
+Wednesday,16.6,13,Living room,Sunny,1,Energetic,0,Playing fetch
+Wednesday,16.8,16,Kitchen,Rainy,2,Excited,0,Eating
+Wednesday,16.9,12,Kitchen,Sunny,2,Excited,0,Eating
+Wednesday,17.2,13,Kitchen,Snowy,2,Excited,0,Eating
+Wednesday,17.5,3,Kitchen,Rainy,2,Savage,0,Barking
+Wednesday,17.5,15,Kitchen,Sunny,1,Relieved,0,Eating
+Wednesday,17.5,5,Jasmine's room,Sunny,2,Excited,1,Trick
+Wednesday,17.6,41,Front yard,Sunny,2,Energetic,0,Walking
+Wednesday,17.7,10,Kitchen,Rainy,1,Relieved,0,Eating
+Wednesday,17.9,5,Jasmine's room,Cloudy,2,Energetic,1,Trick
+Wednesday,18.0,9,Kitchen,Sunny,2,Relieved,0,Eating
+Wednesday,18.0,10,Front yard,Sunny,2,Relieved,0,Peeing
+Wednesday,18.2,8,Kitchen,Sunny,1,Excited,0,Eating
+Wednesday,18.6,14,Kitchen,Sunny,1,Excited,0,Eating
+Wednesday,18.6,8,Kitchen,Cloudy,1,Relieved,0,Eating
+Wednesday,19.0,13,Kitchen,Sunny,2,Relieved,0,Eating
+Wednesday,19.6,4,Front yard,Cloudy,1,Excited,0,Peeing
+Wednesday,20.4,1,Jasmine's room,Sunny,3,Excited,0,Barking
+Wednesday,20.5,6,Front yard,Sunny,2,Excited,0,Pooping
+Wednesday,20.8,361,Living room,Cloudy,1,Sleepy,0,Sleeping
+Wednesday,21.5,1,Kitchen,Sunny,3,Relieved,0,Peeing
+Wednesday,21.7,8,Front yard,Cloudy,1,Relieved,0,Peeing
+Wednesday,22.9,10,Parent's room,Rainy,2,Excited,0,Peeing
+Thursday,9.2,7,Lily's room,Rainy,2,Excited,0,Peeing
+Thursday,9.4,2,Jasmine's room,Sunny,2,Excited,1,Begging for food
+Thursday,9.6,112,Living room,Sunny,1,Lazy,0,On the couch
+Thursday,9.9,1,Front yard,Sunny,2,Savage,0,Barking
+Thursday,10.1,1,Front yard,Rainy,2,Relieved,0,Pooping
+Thursday,10.4,3,Front yard,Sunny,2,Excited,0,Pooping
+Thursday,10.4,472,Kitchen,Snowy,2,Sleepy,0,Sleeping
+Thursday,10.7,4,Living room,Sunny,2,Energetic,1,Trick
+Thursday,11.3,3,Front yard,Sunny,1,Scared,0,Barking
+Thursday,11.6,1,Jasmine's room,Sunny,1,Excited,1,Begging for food
+Thursday,11.6,9,Mailbox,Sunny,2,Relieved,0,Pooping
+Thursday,12.1,4,Living room,Cloudy,0,Excited,0,Barking
+Thursday,12.2,3,Jasmine's room,Sunny,2,Savage,1,Begging for food
+Thursday,12.4,1,Front yard,Sunny,0,Savage,0,Barking
+Thursday,13.1,2,Lily's room,Rainy,1,Energetic,1,Trick
+Thursday,13.2,135,Living room,Sunny,2,Excited,0,On the couch
+Thursday,13.6,5,Living room,Sunny,2,Excited,0,Barking
+Thursday,13.6,8,Front yard,Cloudy,2,Relieved,0,Peeing
+Thursday,13.7,23,Living room,Sunny,1,Excited,0,Playing fetch
+Thursday,13.7,21,Living room,Cloudy,2,Excited,0,Playing fetch
+Thursday,13.8,62,Living room,Sunny,1,Sleepy,0,On the couch
+Thursday,13.9,1,Kitchen,Sunny,0,Savage,0,Barking
+Thursday,14.2,140,Living room,Sunny,2,Excited,0,On the couch
+Thursday,14.3,9,Living room,Sunny,2,Excited,0,Zoomies
+Thursday,14.3,10,Front yard,Sunny,2,Excited,0,Pooping
+Thursday,14.5,10,Kitchen,Cloudy,2,Savage,1,Begging for food
+Thursday,14.7,25,Living room,Cloudy,2,Energetic,0,Playing fetch
+Thursday,14.8,113,Living room,Sunny,2,Sleepy,0,On the couch
+Thursday,14.8,5,Living room,Cloudy,2,Excited,1,Begging for food
+Thursday,14.8,7,Kitchen,Sunny,2,Energetic,0,Zoomies
+Thursday,14.9,2,Living room,Cloudy,1,Energetic,0,Barking
+Thursday,15.5,30,Living room,Cloudy,1,Energetic,0,Playing fetch
+Thursday,16.0,10,Front yard,Rainy,1,Excited,0,Pooping
+Thursday,16.3,4,Parent's room,Sunny,2,Energetic,1,Trick
+Thursday,16.4,12,Kitchen,Sunny,1,Excited,0,Eating
+Thursday,16.5,8,Front yard,Cloudy,1,Relieved,0,Pooping
+Thursday,16.6,1,Living room,Cloudy,2,Savage,1,Begging for food
+Thursday,16.6,27,Living room,Sunny,2,Sleepy,0,On the couch
+Thursday,16.9,19,Kitchen,Sunny,1,Relieved,0,Eating
+Thursday,17.2,5,Kitchen,Sunny,2,Excited,0,Eating
+Thursday,17.2,9,Kitchen,Cloudy,2,Relieved,0,Eating
+Thursday,17.3,16,Living room,Cloudy,1,Energetic,0,Playing fetch
+Thursday,17.3,8,Kitchen,Cloudy,1,Excited,0,Eating
+Thursday,17.4,14,Kitchen,Sunny,1,Relieved,0,Eating
+Thursday,17.6,8,Living room,Sunny,2,Savage,0,Zoomies
+Thursday,17.6,15,Kitchen,Sunny,2,Excited,0,Eating
+Thursday,17.7,4,Jasmine's room,Sunny,1,Savage,1,Begging for food
+Thursday,17.7,19,Kitchen,Cloudy,2,Relieved,0,Eating
+Thursday,17.8,14,Kitchen,Sunny,2,Relieved,0,Eating
+Thursday,17.8,14,Kitchen,Sunny,1,Excited,0,Eating
+Thursday,18.2,17,Kitchen,Cloudy,1,Energetic,0,Playing fetch
+Thursday,18.5,14,Kitchen,Cloudy,1,Excited,0,Eating
+Thursday,18.6,1,Front yard,Sunny,1,Relieved,0,Pooping
+Thursday,18.7,13,Kitchen,Sunny,2,Excited,0,Eating
+Thursday,18.7,1,Mailbox,Sunny,2,Relieved,0,Pooping
+Thursday,18.9,11,Kitchen,Cloudy,2,Excited,0,Eating
+Thursday,19.0,3,Mailbox,Snowy,1,Relieved,0,Peeing
+Thursday,19.8,1,Front yard,Sunny,1,Relieved,0,Peeing
+Thursday,19.8,174,Living room,Rainy,1,Excited,0,On the couch
+Thursday,20.9,222,Kitchen,Cloudy,1,Sleepy,0,Sleeping
+Thursday,21.4,13,Living room,Cloudy,3,Excited,0,Playing fetch
+Thursday,21.9,4,Living room,Sunny,1,Annoyed,0,Barking
+Thursday,22.3,8,Front yard,Sunny,3,Relieved,0,Pooping
+Thursday,22.4,19,Kitchen,Sunny,1,Excited,0,Playing fetch
+Thursday,22.5,2,Front yard,Snowy,1,Relieved,0,Peeing
+Thursday,22.7,9,Front yard,Sunny,2,Relieved,0,Pooping
+Thursday,23.1,5,Kitchen,Sunny,1,Excited,0,Barking
+Friday,6.1,56,Kitchen,Cloudy,3,Lazy,0,Sleeping
+Friday,8.9,4,Living room,Sunny,2,Savage,0,Barking
+Friday,9.0,176,Living room,Sunny,1,Excited,0,On the couch
+Friday,9.2,5,Kitchen,Sunny,2,Excited,1,Trick
+Friday,9.3,10,Front yard,Sunny,2,Excited,0,Peeing
+Friday,9.5,43,Mailbox,Sunny,2,Excited,0,Walking
+Friday,9.6,140,Living room,Sunny,2,Excited,0,On the couch
+Friday,11.0,2,Living room,Sunny,0,Scared,0,Barking
+Friday,11.3,70,Living room,Rainy,2,Excited,0,On the couch
+Friday,11.4,318,Living room,Cloudy,1,Sleepy,0,Sleeping
+Friday,11.7,98,Living room,Sunny,1,Lazy,0,On the couch
+Friday,11.7,17,Living room,Snowy,2,Excited,0,On the couch
+Friday,12.0,5,Living room,Sunny,1,Excited,1,Begging for food
+Friday,12.6,43,Mailbox,Sunny,1,Excited,0,Walking
+Friday,12.7,8,Kitchen,Sunny,2,Savage,1,Begging for food
+Friday,12.8,3,Living room,Sunny,1,Energetic,1,Trick
+Friday,12.8,10,Kitchen,Sunny,1,Excited,0,Peeing
+Friday,12.9,3,Jasmine's room,Sunny,1,Savage,1,Begging for food
+Friday,13.1,9,Jasmine's room,Sunny,2,Excited,1,Begging for food
+Friday,13.3,207,Living room,Rainy,1,Sleepy,0,Sleeping
+Friday,13.5,1,Lily's room,Sunny,1,Relieved,0,Peeing
+Friday,13.6,15,Kitchen,Sunny,2,Savage,1,Cutting nails
+Friday,13.7,26,Kitchen,Sunny,2,Annoyed,1,Cutting nails
+Friday,13.8,113,Living room,Sunny,1,Excited,0,On the couch
+Friday,13.8,5,Living room,Sunny,2,Energetic,0,Barking
+Friday,14.3,23,Kitchen,Sunny,2,Scared,1,Cutting nails
+Friday,14.3,37,Living room,Sunny,1,Excited,0,On the couch
+Friday,14.3,402,Living room,Cloudy,1,Lazy,0,Sleeping
+Friday,14.8,10,Kitchen,Cloudy,2,Annoyed,1,Cutting nails
+Friday,14.8,28,Kitchen,Sunny,2,Annoyed,1,Cutting nails
+Friday,14.8,6,Kitchen,Rainy,1,Relieved,0,Peeing
+Friday,14.9,15,Kitchen,Sunny,2,Scared,1,Cutting nails
+Friday,15.1,25,Kitchen,Snowy,2,Savage,1,Cutting nails
+Friday,15.2,2,Mailbox,Sunny,2,Relieved,0,Pooping
+Friday,15.3,13,Kitchen,Sunny,2,Annoyed,1,Cutting nails
+Friday,15.3,7,Jasmine's room,Snowy,2,Energetic,0,Zoomies
+Friday,15.4,41,Front yard,Sunny,2,Energetic,0,Walking
+Friday,15.4,32,Jasmine's room,Rainy,1,Sleepy,0,Sleeping
+Friday,15.5,1,Jasmine's room,Rainy,2,Savage,0,Barking
+Friday,15.6,3,Front yard,Cloudy,2,Excited,0,Pooping
+Friday,16.0,170,Living room,Sunny,1,Excited,0,On the couch
+Friday,16.0,5,Living room,Sunny,1,Energetic,0,Barking
+Friday,16.1,10,Mailbox,Sunny,1,Relieved,0,Peeing
+Friday,16.1,6,Kitchen,Sunny,1,Excited,0,Eating
+Friday,16.2,15,Kitchen,Cloudy,2,Energetic,0,Zoomies
+Friday,16.2,15,Kitchen,Sunny,1,Relieved,0,Eating
+Friday,16.2,160,Living room,Sunny,1,Sleepy,0,On the couch
+Friday,16.4,3,Kitchen,Sunny,1,Excited,0,Peeing
+Friday,16.4,25,Kitchen,Sunny,2,Scared,1,Cutting nails
+Friday,16.5,20,Kitchen,Cloudy,1,Relieved,0,Eating
+Friday,16.6,18,Kitchen,Sunny,2,Relieved,0,Eating
+Friday,17.0,30,Kitchen,Cloudy,1,Energetic,0,Playing fetch
+Friday,17.2,4,Living room,Rainy,2,Savage,1,Begging for food
+Friday,17.2,7,Kitchen,Sunny,2,Relieved,0,Peeing
+Friday,17.2,10,Front yard,Cloudy,1,Relieved,0,Peeing
+Friday,17.4,15,Kitchen,Sunny,2,Relieved,0,Eating
+Friday,17.4,14,Kitchen,Sunny,2,Relieved,0,Eating
+Friday,17.4,8,Front yard,Sunny,1,Excited,0,Pooping
+Friday,18.0,7,Kitchen,Cloudy,2,Relieved,0,Eating
+Friday,18.4,13,Kitchen,Sunny,2,Relieved,0,Eating
+Friday,18.5,8,Kitchen,Rainy,1,Excited,0,Eating
+Friday,18.6,1,Living room,Cloudy,2,Savage,1,Begging for food
+Friday,18.6,2,Kitchen,Sunny,1,Excited,1,Trick
+Friday,18.6,20,Kitchen,Sunny,1,Relieved,0,Eating
+Friday,18.8,12,Kitchen,Cloudy,2,Excited,0,Zoomies
+Friday,18.8,21,Kitchen,Sunny,2,Excited,0,Playing fetch
+Friday,19.0,5,Kitchen,Sunny,1,Energetic,0,Barking
+Friday,19.3,4,Jasmine's room,Cloudy,1,Savage,0,Barking
+Friday,19.7,132,Living room,Rainy,1,Lazy,0,On the couch
+Friday,20.1,19,Kitchen,Sunny,2,Energetic,0,Playing fetch
+Friday,20.9,178,Living room,Sunny,2,Sleepy,0,On the couch
+Friday,20.9,21,Living room,Cloudy,2,Energetic,0,Playing fetch
+Friday,21.6,123,Living room,Sunny,1,Excited,0,On the couch
+Friday,22.6,28,Front yard,Cloudy,1,Excited,0,Playing fetch
+Friday,22.7,4,Kitchen,Sunny,2,Annoyed,0,Barking
+Saturday,7.1,3,Jasmine's room,Sunny,3,Scared,0,Barking
+Saturday,7.3,349,Living room,Rainy,3,Lazy,0,Sleeping
+Saturday,8.0,45,Mailbox,Sunny,6,Excited,0,Walking
+Saturday,8.9,1,Front yard,Sunny,3,Excited,0,Pooping
+Saturday,9.1,9,Lily's room,Snowy,4,Excited,0,Peeing
+Saturday,10.3,3,Kitchen,Cloudy,2,Energetic,1,Trick
+Saturday,10.6,3,Front yard,Cloudy,7,Relieved,0,Peeing
+Saturday,10.7,1,Living room,Cloudy,4,Savage,0,Barking
+Saturday,10.8,8,Kitchen,Sunny,3,Excited,0,Peeing
+Saturday,11.0,3,Living room,Sunny,6,Energetic,0,Barking
+Saturday,11.2,2,Front yard,Sunny,7,Relieved,0,Pooping
+Saturday,11.3,18,Living room,Cloudy,3,Excited,0,On the couch
+Saturday,11.5,5,Lily's room,Cloudy,4,Relieved,0,Peeing
+Saturday,11.9,10,Kitchen,Sunny,3,Excited,1,Begging for food
+Saturday,12.1,27,Living room,Sunny,5,Lazy,0,On the couch
+Saturday,12.3,2,Kitchen,Rainy,3,Energetic,0,Barking
+Saturday,12.9,45,Front yard,Sunny,6,Energetic,0,Walking
+Saturday,13.0,64,Living room,Sunny,4,Excited,0,On the couch
+Saturday,13.2,10,Jasmine's room,Sunny,6,Savage,1,Begging for food
+Saturday,13.3,8,Kitchen,Cloudy,5,Excited,0,Peeing
+Saturday,13.4,39,Bathroom,Sunny,5,Scared,1,Shower
+Saturday,13.4,477,Living room,Cloudy,6,Sleepy,0,Sleeping
+Saturday,13.4,22,Living room,Sunny,4,Annoyed,1,Haircut
+Saturday,13.5,432,Living room,Rainy,4,Sleepy,0,Sleeping
+Saturday,13.5,6,Kitchen,Sunny,6,Relieved,0,Peeing
+Saturday,13.6,2,Jasmine's room,Cloudy,4,Excited,1,Trick
+Saturday,13.7,43,Living room,Sunny,2,Scared,1,Haircut
+Saturday,13.8,345,Living room,Cloudy,3,Lazy,0,Sleeping
+Saturday,13.9,9,Living room,Sunny,2,Savage,1,Begging for food
+Saturday,13.9,36,Bathroom,Sunny,6,Savage,1,Shower
+Saturday,14.0,6,Front yard,Sunny,7,Excited,0,Pooping
+Saturday,14.1,3,Living room,Sunny,6,Energetic,0,Barking
+Saturday,14.2,151,Living room,Sunny,2,Lazy,0,On the couch
+Saturday,14.3,175,Living room,Rainy,2,Lazy,0,Sleeping
+Saturday,14.3,7,Lily's room,Sunny,6,Excited,0,Peeing
+Saturday,14.3,21,Front yard,Sunny,6,Energetic,0,Walking
+Saturday,14.4,40,Living room,Sunny,5,Savage,1,Haircut
+Saturday,14.4,3,Kitchen,Sunny,3,Annoyed,0,Barking
+Saturday,14.4,26,Bathroom,Cloudy,5,Scared,1,Shower
+Saturday,14.6,20,Front yard,Sunny,3,Excited,0,Walking
+Saturday,14.7,5,Kitchen,Cloudy,3,Relieved,0,Peeing
+Saturday,14.9,42,Bathroom,Snowy,6,Annoyed,1,Shower
+Saturday,14.9,33,Bathroom,Sunny,5,Annoyed,1,Shower
+Saturday,14.9,2,Mailbox,Sunny,3,Excited,0,Peeing
+Saturday,14.9,9,Front yard,Cloudy,3,Relieved,0,Pooping
+Saturday,14.9,26,Kitchen,Sunny,7,Energetic,0,Playing fetch
+Saturday,15.1,8,Kitchen,Sunny,6,Excited,1,Begging for food
+Saturday,15.3,115,Kitchen,Rainy,7,Lazy,0,Sleeping
+Saturday,15.4,5,Living room,Sunny,6,Excited,0,Zoomies
+Saturday,15.4,150,Living room,Snowy,5,Lazy,0,On the couch
+Saturday,15.6,51,Living room,Cloudy,5,Savage,1,Haircut
+Saturday,15.6,59,Living room,Snowy,6,Scared,1,Haircut
+Saturday,15.6,13,Jasmine's room,Cloudy,7,Energetic,0,Zoomies
+Saturday,15.8,2,Kitchen,Sunny,2,Excited,1,Trick
+Saturday,16.0,36,Bathroom,Cloudy,7,Savage,1,Shower
+Saturday,16.1,9,Kitchen,Cloudy,7,Relieved,0,Eating
+Saturday,16.1,154,Living room,Cloudy,3,Sleepy,0,On the couch
+Saturday,16.2,8,Kitchen,Cloudy,4,Excited,0,Eating
+Saturday,16.2,12,Living room,Cloudy,3,Energetic,0,Zoomies
+Saturday,16.3,10,Living room,Sunny,5,Excited,0,Zoomies
+Saturday,16.4,9,Kitchen,Cloudy,4,Excited,1,Begging for food
+Saturday,16.5,4,Kitchen,Cloudy,7,Savage,1,Begging for food
+Saturday,16.6,58,Mailbox,Sunny,4,Excited,0,Walking
+Saturday,16.7,14,Kitchen,Sunny,6,Excited,0,Eating
+Saturday,16.8,41,Bathroom,Sunny,7,Savage,1,Shower
+Saturday,16.8,11,Kitchen,Sunny,5,Excited,0,Eating
+Saturday,16.9,10,Kitchen,Sunny,7,Excited,1,Begging for food
+Saturday,17.2,39,Bathroom,Sunny,5,Savage,1,Shower
+Saturday,17.3,12,Kitchen,Cloudy,3,Excited,0,Eating
+Saturday,17.5,25,Bathroom,Sunny,7,Annoyed,1,Shower
+Saturday,17.6,14,Kitchen,Sunny,5,Relieved,0,Eating
+Saturday,17.6,12,Kitchen,Cloudy,2,Excited,0,Eating
+Saturday,17.6,15,Kitchen,Sunny,4,Excited,0,Eating
+Saturday,17.6,17,Kitchen,Sunny,4,Excited,0,Eating
+Saturday,18.4,355,Kitchen,Cloudy,7,Lazy,0,Sleeping
+Saturday,18.4,5,Kitchen,Sunny,3,Energetic,0,Zoomies
+Saturday,18.5,55,Kitchen,Sunny,7,Annoyed,1,Haircut
+Saturday,18.6,1,Living room,Sunny,6,Energetic,0,Barking
+Saturday,18.7,26,Parent's room,Cloudy,7,Savage,1,Haircut
+Saturday,18.8,3,Living room,Rainy,3,Scared,0,Barking
+Saturday,18.9,16,Kitchen,Cloudy,5,Excited,0,Eating
+Saturday,19.1,180,Living room,Sunny,6,Excited,0,On the couch
+Saturday,19.2,1,Living room,Sunny,2,Excited,0,Barking
+Saturday,19.3,3,Kitchen,Sunny,5,Excited,1,Begging for food
+Saturday,19.4,22,Bathroom,Sunny,7,Savage,1,Shower
+Saturday,19.7,26,Kitchen,Sunny,3,Excited,0,Playing fetch
+Saturday,19.8,7,Jasmine's room,Cloudy,4,Savage,1,Begging for food
+Saturday,19.9,6,Kitchen,Rainy,6,Excited,1,Begging for food
+Saturday,19.9,19,Living room,Rainy,7,Excited,0,On the couch
+Saturday,20.2,7,Front yard,Sunny,2,Excited,0,Pooping
+Saturday,20.6,28,Kitchen,Sunny,2,Energetic,0,Playing fetch
+Saturday,21.6,13,Living room,Sunny,2,Energetic,0,Playing fetch
+Saturday,21.6,8,Kitchen,Rainy,1,Excited,0,Peeing
+Saturday,22.2,1,Parent's room,Sunny,3,Relieved,0,Peeing
+Saturday,22.3,2,Front yard,Sunny,2,Excited,0,Pooping
+Sunday,6.8,271,Kitchen,Cloudy,1,Lazy,0,Sleeping
+Sunday,7.3,2,Living room,Sunny,2,Scared,0,Barking
+Sunday,8.1,43,Front yard,Sunny,2,Excited,0,Walking
+Sunday,8.5,5,Front yard,Sunny,4,Annoyed,0,Barking
+Sunday,8.7,2,Kitchen,Cloudy,6,Excited,0,Peeing
+Sunday,9.1,8,Bathroom,Sunny,6,Relieved,0,Peeing
+Sunday,9.2,24,Living room,Sunny,3,Sleepy,0,On the couch
+Sunday,9.5,4,Living room,Sunny,2,Savage,1,Begging for food
+Sunday,9.7,173,Living room,Cloudy,3,Lazy,0,On the couch
+Sunday,10.5,52,Mailbox,Sunny,5,Energetic,0,Walking
+Sunday,10.7,8,Front yard,Rainy,6,Relieved,0,Pooping
+Sunday,10.8,1,Kitchen,Sunny,5,Relieved,0,Peeing
+Sunday,10.8,74,Parent's room,Cloudy,6,Lazy,0,Sleeping
+Sunday,11.1,49,Front yard,Sunny,6,Energetic,0,Walking
+Sunday,11.2,1,Jasmine's room,Sunny,6,Savage,1,Begging for food
+Sunday,11.8,8,Front yard,Cloudy,7,Excited,0,Pooping
+Sunday,12.3,106,Living room,Cloudy,3,Excited,0,On the couch
+Sunday,12.9,160,Living room,Sunny,7,Excited,0,On the couch
+Sunday,13.1,28,Kitchen,Sunny,7,Excited,0,Playing fetch
+Sunday,13.5,10,Kitchen,Sunny,5,Excited,0,Peeing
+Sunday,13.6,2,Front yard,Sunny,5,Excited,0,Pooping
+Sunday,13.8,12,Kitchen,Sunny,6,Energetic,0,Playing fetch
+Sunday,13.8,474,Living room,Cloudy,2,Sleepy,0,Sleeping
+Sunday,14.1,15,Living room,Cloudy,2,Energetic,0,Zoomies
+Sunday,14.4,5,Front yard,Cloudy,7,Relieved,0,Peeing
+Sunday,14.8,1,Living room,Cloudy,5,Savage,0,Barking
+Sunday,14.9,5,Front yard,Sunny,2,Excited,0,Pooping
+Sunday,15.0,7,Kitchen,Cloudy,5,Savage,1,Begging for food
+Sunday,15.0,3,Living room,Snowy,6,Energetic,0,Barking
+Sunday,15.1,48,Front yard,Sunny,5,Energetic,0,Walking
+Sunday,15.8,120,Living room,Cloudy,6,Lazy,0,Sleeping
+Sunday,16.1,11,Kitchen,Sunny,6,Relieved,0,Eating
+Sunday,16.2,5,Kitchen,Snowy,7,Savage,1,Begging for food
+Sunday,16.2,9,Kitchen,Sunny,3,Excited,0,Eating
+Sunday,16.5,16,Kitchen,Sunny,6,Relieved,0,Eating
+Sunday,16.9,14,Kitchen,Sunny,2,Excited,0,Eating
+Sunday,17.1,2,Living room,Sunny,7,Excited,1,Begging for food
+Sunday,17.2,17,Kitchen,Cloudy,2,Relieved,0,Eating
+Sunday,17.4,11,Kitchen,Rainy,4,Excited,0,Eating
+Sunday,17.5,7,Kitchen,Cloudy,5,Relieved,0,Eating
+Sunday,17.7,1,Living room,Cloudy,6,Excited,1,Trick
+Sunday,17.9,9,Front yard,Sunny,5,Excited,0,Pooping
+Sunday,18.2,8,Kitchen,Rainy,2,Relieved,0,Eating
+Sunday,18.7,14,Living room,Cloudy,3,Energetic,0,Zoomies
+Sunday,18.7,10,Kitchen,Snowy,2,Excited,0,Eating
+Sunday,18.7,10,Living room,Cloudy,7,Energetic,0,Zoomies
+Sunday,18.7,44,Front yard,Sunny,3,Energetic,0,Walking
+Sunday,18.8,47,Living room,Snowy,6,Sleepy,0,On the couch
+Sunday,18.9,7,Kitchen,Sunny,3,Relieved,0,Peeing
+Sunday,19.1,8,Kitchen,Sunny,4,Relieved,0,Peeing
+Sunday,19.1,4,Living room,Rainy,6,Energetic,1,Trick
+Sunday,19.2,5,Kitchen,Sunny,6,Excited,1,Trick
+Sunday,19.3,28,Living room,Sunny,3,Lazy,0,On the couch
+Sunday,19.6,7,Front yard,Cloudy,6,Excited,0,Pooping
+Sunday,19.9,446,Jasmine's room,Cloudy,4,Lazy,0,Sleeping
+Sunday,20.0,10,Front yard,Sunny,3,Excited,0,Pooping
+Sunday,20.2,28,Kitchen,Sunny,2,Energetic,0,Playing fetch
+Sunday,20.5,4,Kitchen,Cloudy,2,Relieved,0,Peeing
+Sunday,20.6,90,Living room,Snowy,1,Lazy,0,On the couch
+Sunday,20.9,2,Jasmine's room,Sunny,3,Energetic,1,Trick
+Sunday,21.7,6,Living room,Sunny,2,Savage,0,Zoomies
+Sunday,21.7,24,Kitchen,Cloudy,1,Energetic,0,Playing fetch
+Sunday,22.1,8,Front yard,Rainy,1,Excited,0,Pooping
+Sunday,23.1,5,Front yard,Cloudy,1,Energetic,0,Barking

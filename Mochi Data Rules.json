@@ -3,7 +3,7 @@
       "activity": "Sleeping",
       "location": ["Jasmine's room", "Living room", "Parent's room", "Kitchen"],
       "time_range": [1, 24],
-      "people_home_max": 7,
+      "people_home_min": 1,
       "mood": ["Sleepy", "Lazy"],
       "weather": ["Cloudy", "Rainy", "Snowy"],
       "probability": 0.6
