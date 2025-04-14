@@ -102,9 +102,15 @@
 
     <script>
         async function predict() {
+<<<<<<< HEAD
             const timeInput = document.getElementById('time');
             const predictBtn = document.getElementById('predict-btn');
             const resultDiv = document.getElementById('result');
+=======
+            const time = document.getElementById('time').value;
+            const response = await fetch('https://jasmineh3815.pythonanywhere.com/predict?time=' + time);
+            const data = await response.json();
+>>>>>>> 1bad6c7145eb321a5f28dec634a53a559c104e80
             
             // Validate input
             const time = parseFloat(timeInput.value);
