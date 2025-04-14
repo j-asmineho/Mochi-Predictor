@@ -1,3 +1,4 @@
+from flask_cors import CORS  
 from flask import Flask, jsonify, request
 import joblib
 import numpy as np
@@ -5,6 +6,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 app = Flask(__name__)
+CORS(app)
 
 # Load your trained model
 model = joblib.load('model.pkl')

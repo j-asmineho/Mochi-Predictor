@@ -1,6 +1,5 @@
 import pandas as pd
 import random
-from datetime import time
 import json
 
 # Load JSON rules
@@ -19,13 +18,7 @@ def generate_row():
     )[0].copy()  # Create a copy to avoid modifying original
     
     # Handle day constraint
-    if 'day' in activity_rule:
-        if isinstance(activity_rule['day'], int):
-            day_num = activity_rule['day']
-        else:
-            day_num = random.choice(activity_rule['day'])
-    else:
-        day_num = random.randint(1, 7)
+    day_num = random.randint(1, 7)
     day = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][day_num-1]
     
     # Generate time within specified range (with realistic distributions)
@@ -56,11 +49,11 @@ def generate_row():
     location_weights = {
         'Living room': 40,
         'Kitchen': 30,
-        'Jasmine\'s room': 15,
+        'Jasmine\'s room': 25,
         'Parent\'s room': 10,
         'Bathroom': 5,
         'Front yard': 20,
-        'Mailbox': 5,
+        'Mailbox': 20,
         'Lily\'s room': 5
     }
     valid_locations = activity_rule['location']
@@ -81,46 +74,30 @@ def generate_row():
     else:
         weather = random.choices(list(weather_probs.keys()), weights=weather_probs.values())[0]
     
-    # Mood based on activity and other factors
-    mood_rules = {
-        'Sleeping': ['Sleepy', 'Lazy'],
-        'Begging for food': ['Excited', 'Savage'],
-        'Zoomies': ['Excited'] if people_home > 3 else ['Excited', 'Savage'],
-        'Playing fetch': ['Excited'],
-        'Barking': ['Annoyed'] if random.random() < 0.7 else ['Scared'],
-        'Cutting nails': ['Annoyed', 'Scared'],
-        'Shower': ['Annoyed'],
-        'Eating': ['Excited'],
-        'On the couch': ['Lazy'] if time_float > 20 else ['Excited'],
-        'Pooping': ['Relieved'],
-        'Peeing': ['Relieved'],
-        'Haircut': ['Savage', 'Annoyed'],
-        'Walking': ['Energetic', 'Excited'],
-        'Trick': ['Excited']
-    }
-    mood = random.choice(mood_rules[activity_rule['activity']])
+  
+    mood = random.choice(activity_rule['mood'])
     
     # Trigger logic
-    trigger_map = {
-        'Begging for food': ['Someone cooking', 'Someone eating'],
-        'Sleeping' : ['Mochi tired'],
-        'Zoomies': ['Just pooped', 'Shower', 'Playing fetch'],
-        'Playing fetch': ['Someone throws toy'],
-        'Barking': ['Hears doorbell', 'Someone comes home', 'Someone goes downstairs'],
-        'Cutting nails': ['Routine grooming'],
-        'Shower': ['Bath day'],
-        'Haircut': ['Hair too long'],
-        'Eating': ['Meal time'],
-        'On the couch': ['Mom sits down'],
-        'Pooping': ['Morning walk', 'Ate food'],
-        'Peeing': ['Bored'],
-        'Walking': ['Bored'],
-        'Trick': ['Treat']
-    }
-    trigger = random.choice(trigger_map[activity_rule['activity']]) if activity_rule['activity'] in trigger_map else None
+    # trigger_map = {
+    #     'Begging for food': ['Someone cooking', 'Someone eating'],
+    #     'Sleeping' : ['Mochi tired'],
+    #     'Zoomies': ['Just pooped', 'Shower', 'Playing fetch'],
+    #     'Playing fetch': ['Someone throws toy'],
+    #     'Barking': ['Hears doorbell', 'Someone comes home', 'Someone goes downstairs'],
+    #     'Cutting nails': ['Routine grooming'],
+    #     'Shower': ['Bath day'],
+    #     'Haircut': ['Hair too long'],
+    #     'Eating': ['Meal time'],
+    #     'On the couch': ['Mom sits down'],
+    #     'Pooping': ['Morning walk', 'Ate food'],
+    #     'Peeing': ['Bored'],
+    #     'Walking': ['Bored'],
+    #     'Trick': ['Treat']
+    # }
+    # trigger = random.choice(trigger_map[activity_rule['activity']]) if activity_rule['activity'] in trigger_map else None
     
     # Reward given - special cases first
-    if activity_rule['activity'] in ['Cutting nails', 'Shower', 'Haircut', "Trick"]:
+    if activity_rule['activity'] in ['Cutting nails', 'Shower', 'Haircut', "Trick", "Pooping", "Walking"]:
         reward = 1
     elif 'reward_given' in activity_rule:
         reward = activity_rule['reward_given']
@@ -139,7 +116,8 @@ def generate_row():
         'Shower': lambda: random.randint(15, 45),
         'Haircut': lambda: random.randint(20, 60),
         'Barking': lambda: random.randint(1, 5),
-        'Trick': lambda: random.randint(1, 5)
+        'Trick': lambda: random.randint(1, 5),
+        "Begging for food": lambda: random.randint(1, 15)
     }
     duration = duration_rules.get(activity_rule['activity'], lambda: random.randint(1, 10))()
     
@@ -151,7 +129,7 @@ def generate_row():
         'Weather': weather,
         'People_home': people_home,
         'Mood': mood,
-        'Trigger': trigger,
+        # 'Trigger': trigger,
         'Reward_given': reward,
         'Activity': activity_rule['activity']
     }
@@ -166,7 +144,6 @@ df = df.sort_values(['Day_num', 'Time'])
 df = df.drop('Day_num', axis=1)
 
 # Save to CSV
-df.to_csv('mochi_activities.csv', index=False)
+df.to_csv('mochi_activities_1.csv', index=False)
 print("Dataset generated with 500 rows!")
-
 
