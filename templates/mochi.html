@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Will Mochi Do?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --light-green: #e8f5e9;
+            --soft-green: #c8e6c9;
+            --dark-green: #81c784;
+            --cute-pink: #f8bbd0;
+        }
+        
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: var(--light-green);
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        h1 {
+            color: var(--dark-green);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--dark-green);
+            font-weight: bold;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid var(--soft-green);
+            border-radius: 15px;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        input:focus, select:focus {
+            border-color: var(--dark-green);
+            box-shadow: 0 0 0 3px rgba(129, 199, 132, 0.3);
+        }
+        
+        button {
+            background-color: var(--cute-pink);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 15px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #f48fb1;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: var(--soft-green);
+            border-radius: 20px;
+            display: none;
+        }
+        
+        #mochiImage {
+            max-width: 100%;
+            border-radius: 15px;
+            margin-top: 15px;
+            border: 4px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .activity-text {
+            font-size: 1.5rem;
+            color: #5d4037;
+            margin: 15px 0;
+        }
+        
+        .time-display {
+            font-size: 1.2rem;
+            color: var(--dark-green);
+            font-weight: bold;
+        }
+        
+        /* Floating cute icons */
+        .floating-icon {
+            position: absolute;
+            opacity: 0.6;
+            z-index: 0;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(10deg); }
+        }
+        
+        .loading {
+            display: none;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top: 4px solid var(--cute-pink);
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating cute icons -->
+    <i class="fas fa-bone floating-icon" style="top: 10%; left: 5%; font-size: 30px; color: #8d6e63; animation-delay: 0s;"></i>
+    <i class="fas fa-paw floating-icon" style="top: 80%; left: 10%; font-size: 40px; color: #5d4037; animation-delay: 1s;"></i>
+    <i class="fas fa-duck floating-icon" style="top: 30%; right: 8%; font-size: 35px; color: #ffca28; animation-delay: 2s;"></i>
+    <i class="fas fa-balloon floating-icon" style="top: 70%; right: 5%; font-size: 25px; color: #e91e63; animation-delay: 1.5s;"></i>
+    
+    <div class="container">
+        <h1>What Will Mochi Do? 🐾</h1>
+        
+        <div class="input-group">
+            <label for="day">Day of the Week:</label>
+            <select id="day">
+                <option value="mon">Monday</option>
+                <option value="tue">Tuesday</option>
+                <option value="wed">Wednesday</option>
+                <option value="thu">Thursday</option>
+                <option value="fri">Friday</option>
+                <option value="sat">Saturday</option>
+                <option value="sun">Sunday</option>
+            </select>
+        </div>
+        
+        <div class="input-group">
+            <label for="time">Time of Day:</label>
+            <input type="time" id="time" value="12:00">
+        </div>
+        
+        <button id="predictBtn">Predict Mochi's Activity!</button>
+        
+        <div class="loading" id="loading">
+            <p>Predicting what Mochi will do...</p>
+            <div class="spinner"></div>
+        </div>
+        
+        <div class="result" id="result">
+            <div class="time-display" id="timeDisplay"></div>
+            <div class="activity-text" id="activityText"></div>
+            <img id="mochiImage" src="" alt="Mochi's activity">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predictBtn').addEventListener('click', async function() {
+            const day = document.getElementById('day').value;
+            const time = document.getElementById('time').value;
+            
+            if (!time) {
+                alert('Please select a time!');
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result').style.display = 'none';
+            
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        day: day,
+                        time: time
+                    })
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                
+                const result = await response.json();
+                
+                if (result.status === 'success') {
+                    // Display results
+                    document.getElementById('timeDisplay').textContent = 
+                        `${capitalizeFirstLetter(result.day)} at ${result.time}`;
+                    document.getElementById('activityText').textContent = result.description;
+                    document.getElementById('mochiImage').src = result.image_url;
+                    document.getElementById('result').style.display = 'block';
+                } else {
+                    throw new Error(result.message || 'Prediction failed');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Failed to predict. Please try again.');
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        });
+        
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+    </script>
+</body>
+</html>
